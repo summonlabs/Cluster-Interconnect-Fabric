@@ -1,0 +1,47 @@
+# Build trees
+/build/
+/build-*/
+/out/
+/install/
+/_install/
+/stage/
+/cmake-build-*/
+
+# Local validation scratch space (never committed)
+/.cif-validate/
+/validation-out/
+/downstream-build/
+/fresh-clone*/
+/scratch/
+
+# Editor / OS noise
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*~
+Thumbs.db
+desktop.ini
+
+# Compiled artifacts
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.gcda
+*.gcno
+
+# Test / runtime output
+*.log
+*.tmp
+*.cifdb
+*.cifjournal

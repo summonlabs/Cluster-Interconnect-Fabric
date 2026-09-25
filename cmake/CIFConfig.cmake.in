@@ -1,0 +1,10 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+find_dependency(Threads)
+
+include("${CMAKE_CURRENT_LIST_DIR}/CIFTargets.cmake")
+
+check_required_components(CIF)
+
+set(CIF_VERSION "@@PROJECT_VERSION@")
